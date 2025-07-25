@@ -1,5 +1,5 @@
 import Button from "@/components/common/Button";
-import router, { useRouter } from "next/router";
+import  { useRouter } from "next/router";
 
 import { PageRouteProps } from "@/interface";
 
@@ -31,7 +31,4 @@ export default function Home() {
 }
 
 
- // Imeperative routing with useRouter
-  const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
-    router.push(pageRoute, undefined, { shallow: false})
-  }
+ 
