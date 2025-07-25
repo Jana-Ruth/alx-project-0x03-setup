@@ -1,5 +1,6 @@
 import Button from "@/components/common/Button";
-import  { useRouter } from "next/router";
+import { useRouter } from 'next/router';
+
 
 import { PageRouteProps } from "@/interface";
 
@@ -31,4 +32,5 @@ export default function Home() {
 }
 
 
- 
+ // Imeperative routing with useRouter
+  
